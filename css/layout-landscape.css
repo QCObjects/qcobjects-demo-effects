@@ -1,0 +1,54 @@
+.buttons {
+    width: 90%;
+    min-width: 540px;
+    display: grid;
+    grid-gap: 0.6em;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-auto-flow: column;
+}
+
+.buttons button {
+    margin: 10px auto;
+    width: 70%;
+    min-height: 30px;
+    min-width: 120px;
+    border-radius: 27px;
+}
+
+.panel {
+    max-width: 900px;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    border: 5px solid rgb(54, 33, 33);
+    border-radius: 27px;
+    padding: 20px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+.panel>div.logo {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+.panel>div {
+    padding: 10px;
+}
+
+svg {
+    display: block;
+    zoom: 1;
+    max-width: 300px;
+    margin: 0 auto;
+}
+.snippet {
+    max-width: 900px;
+    margin: 30px auto;
+    display: block;
+    border: 5px solid rgb(54, 33, 33);
+    border-radius: 27px;
+    padding: 20px;
+    overflow: scroll;
+    scroll-behavior: smooth;
+}

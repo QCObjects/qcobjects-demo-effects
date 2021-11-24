@@ -2,7 +2,9 @@
 
 Here are some examples of how to use high-level effects in QCObjects.
 
-Check out this live demo [here]() to see how to use the effects in a simple example.
+Check out this live demo [here](https://qcobjects.github.io/qcobjects-demo-effects/) to see how to use the effects in a simple example.
+
+Check out this project on GitHub [here](https://github.com/QCObjects/qcobjects-demo-effects)
 
 # FadeIn
 
